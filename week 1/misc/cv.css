@@ -1,0 +1,88 @@
+body{
+  background-image: url(https://wallpapercave.com/wp/wp2801610.jpg);
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10%;
+}
+
+#resume{
+  width: 100%;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+#Curriculum-Vittae {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(129, 127, 174);
+    font-size: 0.5rem;
+}
+
+
+#name{
+  display: grid;
+  text-align: left;  
+  color: rgb(81, 81, 106);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  line-height: 100%;
+}
+
+#container{
+  display: grid;
+  grid-template-columns: auto auto;
+  text-align: auto;
+}
+
+#item-1{
+  display: grid;
+  text-align: left;
+  padding-left: 0%;
+  width:75% ;
+}
+
+#item-2{
+  display: flex;
+  justify-content: flex-end;
+ padding-right:10%;
+}
+
+#details {
+  text-align: left;
+  color:rgb(81, 81, 106);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+#skills, #experinece, #education, #certificates, #publications, #language, #volunteering{
+  background-color: rgb(143, 143, 172);
+  height: 10%;
+  width: 100%;
+  text-align: justify;
+  color: rgb(37, 37, 49);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+  line-height: 100%;
+  padding: 5px;
+ }
+ 
+#list-of-skills{
+  text-align: left;
+  color: rgb(81, 81, 106);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1rem;
+  line-height: 100%;
+}
+
+
+#pageno{
+  text-align: right;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(129, 127, 174);
+  font-size: 1rem;
+}
